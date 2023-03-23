@@ -1,7 +1,9 @@
-<html>
-<head><title>401 Authorization Required</title></head>
-<body>
-<center><h1>401 Authorization Required</h1></center>
-<hr><center>nginx/1.18.0 (Ubuntu)</center>
-</body>
-</html>
+import type from '../../_data/typography/typography.json';
+
+export default {
+	2: type[ 'line-height-2' ],
+	flat: type[ 'line-height-flat' ],
+	base: type[ 'line-height-base' ],
+	sm: type[ 'line-height-sm' ],
+	lg: type[ 'line-height-lg' ],
+};

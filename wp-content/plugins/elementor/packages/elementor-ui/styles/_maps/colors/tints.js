@@ -1,7 +1,12 @@
-<html>
-<head><title>401 Authorization Required</title></head>
-<body>
-<center><h1>401 Authorization Required</h1></center>
-<hr><center>nginx/1.18.0 (Ubuntu)</center>
-</body>
-</html>
+import palette from '../../_data/colors/palette.json';
+
+export default {
+	800: palette[ 'gray-lamp-post' ],
+	700: palette[ 'gray-blue-planet' ],
+	600: palette[ 'gray-sheffield' ],
+	500: palette[ 'gray-special-delivery' ],
+	400: palette[ 'gray-stone-golem' ],
+	300: palette[ 'gray-hidden-creek' ],
+	200: palette[ 'gray-anti-flash' ],
+	100: palette[ 'gray-emptiness' ],
+};

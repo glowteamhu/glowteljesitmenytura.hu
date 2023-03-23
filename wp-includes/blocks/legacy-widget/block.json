@@ -1,7 +1,28 @@
-<html>
-<head><title>401 Authorization Required</title></head>
-<body>
-<center><h1>401 Authorization Required</h1></center>
-<hr><center>nginx/1.18.0 (Ubuntu)</center>
-</body>
-</html>
+{
+	"apiVersion": 2,
+	"name": "core/legacy-widget",
+	"title": "Legacy Widget",
+	"category": "widgets",
+	"description": "Display a legacy widget.",
+	"textdomain": "default",
+	"attributes": {
+		"id": {
+			"type": "string",
+			"default": null
+		},
+		"idBase": {
+			"type": "string",
+			"default": null
+		},
+		"instance": {
+			"type": "object",
+			"default": null
+		}
+	},
+	"supports": {
+		"html": false,
+		"customClassName": false,
+		"reusable": false
+	},
+	"editorStyle": "wp-block-legacy-widget-editor"
+}

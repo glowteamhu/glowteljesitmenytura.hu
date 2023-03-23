@@ -1,7 +1,11 @@
-<html>
-<head><title>401 Authorization Required</title></head>
-<body>
-<center><h1>401 Authorization Required</h1></center>
-<hr><center>nginx/1.18.0 (Ubuntu)</center>
-</body>
-</html>
+import type from '../../_data/typography/typography.json';
+
+export default {
+	base: type[ 'font-size-14' ],
+	xxs: type[ 'font-size-11' ],
+	xs: type[ 'font-size-12' ],
+	sm: type[ 'font-size-13' ],
+	md: type[ 'font-size-14' ],
+	lg: type[ 'font-size-15' ],
+	xl: type[ 'font-size-base' ],
+};
